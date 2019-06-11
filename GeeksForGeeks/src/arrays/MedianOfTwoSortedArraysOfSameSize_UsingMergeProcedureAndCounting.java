@@ -38,10 +38,5 @@ public class MedianOfTwoSortedArraysOfSameSize_UsingMergeProcedureAndCounting {
 		}
 		return (m1 + m2) / 2;
 
-		/*
-		 * while(i<n && j<n && count<=n) { if(arr1[i] < arr2[j]) { m1= m2; m2 =
-		 * arr1[i++]; count++; }else { m1=m2; m2 =arr2[j++]; count++; } } return
-		 * (m1+m2)/2;
-		 */
 	}
 }
